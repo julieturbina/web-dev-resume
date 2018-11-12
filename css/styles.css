@@ -1,3 +1,13 @@
 body{
-    background: rgb(188, 231, 244)
-};
+    background: rgb(188, 231, 244);
+    color: purple;
+}
+h1 {
+    color: rgb(41, 0, 136);
+}
+h2 {
+    color:yellow;
+}
+p {
+    color: hotpink;
+}
