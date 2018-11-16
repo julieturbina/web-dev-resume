@@ -2,7 +2,7 @@ body{
     background: rgb(188, 231, 244);
     color: purple;
 }
-h1 {
+h1:hover {
     color: rgb(41, 0, 136);
 }
 h2 {
@@ -10,4 +10,31 @@ h2 {
 }
 p {
     color: hotpink;
+}
+.demo {
+    color: rgb(49, 240, 103);
+}
+#demo {
+    color: blue;
+}
+ul li {
+    color: rgb(255, 255, 255)
+}
+a {
+    color: black;
+}
+a:hover {
+    color: rgb(250, 9, 9);
+}
+/* a:visited {
+    color: rgb(250, 9, 250);
+} */
+/* a:active {
+    color: rgb(250, 9, 250);
+} */
+a:focus {
+    outline: 1px rgb(250, 9, 250);
+}
+#link {
+color: rgb(215, 91, 215);
 }
