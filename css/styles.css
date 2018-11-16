@@ -1,13 +1,41 @@
-body{
-    background: rgb(188, 231, 244);
-    color: purple;
+/*  
+razzle dazzle rose - #F243C3
+blue jeans - #54A4EA
+royal purple - #803FBA
+stil de grain yellow - #FFD460
+Paltinate blue - #2E31FF
+*/
+
+/* globak style */ 
+/* body{
+    background: rgb(141, 204, 223);
+    color: rgb(125, 233, 245);
+} */
+
+/* header and footer  */
+header, footer {
+    background: rgb(235, 57, 188);
+    color: rgb(111, 39, 174);
 }
-h1:hover {
+
+/* project  */
+.project {
+    background: rgb(30, 33, 218);
+    color: rgb(248, 255, 106);
+}
+/* education  */
+.education{
+    background: rgb(119, 53, 177);
+    color: rgb(244, 66, 196);
+}
+
+
+/* h1:hover {
     color: rgb(41, 0, 136);
 }
 h2 {
     color:yellow;
-}
+} */
 p {
     color: hotpink;
 }
@@ -23,6 +51,8 @@ ul li {
 a {
     color: black;
 }
+
+/* selectors to change style on hover ---- */
 a:hover {
     color: rgb(250, 9, 9);
 }
@@ -32,9 +62,13 @@ a:hover {
 /* a:active {
     color: rgb(250, 9, 250);
 } */
+/* focus selector */
 a:focus {
     outline: 1px rgb(250, 9, 250);
 }
+/* link selector */
 #link {
 color: rgb(215, 91, 215);
 }
+
+/* footer style */
