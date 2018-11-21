@@ -7,10 +7,9 @@ Paltinate blue - #2E31FF
 */
 
 /* globak style */ 
-/* body{
-    background: rgb(141, 204, 223);
-    color: rgb(125, 233, 245);
-} */
+body{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
 
 /* header and footer  */
 header, footer {
