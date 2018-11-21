@@ -11,21 +11,35 @@ body{
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+img {
+    height: 50;
+    width: 25;
+    display: none;
+}
+
 /* header and footer  */
 header, footer {
     background: rgb(235, 57, 188);
     color: rgb(111, 39, 174);
+    padding: 10px;
 }
 
 /* project  */
 .project {
     background: rgb(30, 33, 218);
     color: rgb(248, 255, 106);
+    padding: 10px;
 }
 /* education  */
 .education{
     background: rgb(119, 53, 177);
     color: rgb(244, 66, 196);
+    padding: 10px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 
@@ -36,7 +50,7 @@ h2 {
     color:yellow;
 } */
 p {
-    color: hotpink;
+    color: rgb(111, 39, 174;
 }
 .demo {
     color: rgb(49, 240, 103);
