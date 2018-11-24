@@ -9,39 +9,47 @@ Paltinate blue - #2E31FF
 /* globak style */ 
 body{
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
 }
 
 img {
     height: 50;
     width: 25;
-    display: none;
+    /* display: none; */
+    float: left;
 }
 
 /* header and footer  */
 header, footer {
     background: rgb(235, 57, 188);
     color: rgb(111, 39, 174);
+}
+/*footer*/
+footer {
+    text-align: center;
+}
+
+.contact-info a {
     padding: 10px;
+    display: inline-block;
 }
 
 /* project  */
 .project {
     background: rgb(30, 33, 218);
     color: rgb(248, 255, 106);
-    padding: 10px;
 }
 /* education  */
 .education{
     background: rgb(119, 53, 177);
     color: rgb(244, 66, 196);
-    padding: 10px;
 }
 
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
-
 
 /* h1:hover {
     color: rgb(41, 0, 136);
