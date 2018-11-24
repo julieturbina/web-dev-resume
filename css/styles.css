@@ -13,11 +13,11 @@ body{
 }
 
 img {
-    height: 50;
-    width: 25;
+
     /* display: none; */
     float: left;
 }
+
 
 /* header and footer  */
 header, footer {
@@ -27,6 +27,10 @@ header, footer {
 /*footer*/
 footer {
     text-align: center;
+}
+
+h2 {
+    clear: both;
 }
 
 .contact-info a {
@@ -46,6 +50,7 @@ footer {
 }
 
 .content-wrap {
+    background: rgb(235, 57, 188);
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
